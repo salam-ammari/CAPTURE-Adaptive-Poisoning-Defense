@@ -1,0 +1,78 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# IDE and editor files
+.vscode/
+.idea/
+.spyproject/
+.spyderproject/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Large generated model artifacts
+checkpoints/
+models/
+artifacts/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# Large NumPy data artifacts
+*.npy
+*.npz
+
+# Local profiling and benchmark outputs
+.prof/
+*.prof
+
+# Keep reproducibility outputs tracked
+!results/
+!results/*.json
+!figures/
