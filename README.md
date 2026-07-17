@@ -65,26 +65,8 @@ CAPTURE-Adaptive-Poisoning-Defense/
 ├── runner.py
 ├── sim_core.py
 ├── sim_defense.py
-│
-├── results/
-│   ├── results_DATA.json
-│   ├── results_E1.json
-│   ├── results_E2.json
-│   ├── results_E3.json
-│   ├── results_E4.json
-│   ├── results_E5.json
-│   ├── results_E6.json
-│   ├── results_E7.json
-│   ├── results_E8.json
-│   └── results_curves.json
-│
 ├── figures/
-│   └── generated figures
-│
-└── tests/
-    ├── test_aggregators.py
-    ├── test_capture.py
-    └── test_recovery.py
+│   └── CAPTURE framework. 
 ```
 
 ### Core files
