@@ -1,0 +1,3 @@
+# CAPTURE runtime dependency
+# NumPy 2.x is required because runner.py uses numpy.trapezoid.
+numpy>=2.0.0,<3.0.0
